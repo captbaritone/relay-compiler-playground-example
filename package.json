@@ -1,0 +1,19 @@
+{
+  "name": "docusaurus-report",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "serve": "serve ."
+  },
+  "devDependencies": {
+    "serve": "^12.0.0",
+    "webpack": "^5.40.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "relay-compiler-playground": "^0.0.2"
+  },
+  "prettier": {}
+}
